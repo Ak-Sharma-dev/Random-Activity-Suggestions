@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+div{
+    position: absolute;
+    font-family: "Raleway", sans-serif !important;
+    font-weight: 300;
+    text-align: center;
+    background-image: linear-gradient(62deg, #16222A, #3A6073);
+    color: white;
+    width: 40rem;
+    margin-top: 3rem;
+    margin-left: 18rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: black;
+}
+h3{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+button{
+    border: #16222A 2px solid;
+    background-color: burlywood;
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    transition-delay:0.1s;
+}
+button:hover{
+    background-color: rgb(154, 93, 14);
+    opacity: 0.8;
+    color: whitesmoke;
+}
